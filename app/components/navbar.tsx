@@ -37,7 +37,7 @@ export const Navbar = () => {
       <motion.nav
         animate={{
             boxShadow: scrolled ? "--shadow-input" : "none", 
-            width : scrolled ? "60%" : "100%",
+            width : scrolled ? "50%" : "100%",
             y: scrolled ? 10 : 0,
             
         }}
