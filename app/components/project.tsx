@@ -7,13 +7,13 @@ const Project = () => {
     const projects = [
         {
         title : 'Sundown',
-        src : "https://i.pinimg.com/1200x/f5/cd/c9/f5cdc97f281426feb9a78867d13fe584.jpg",
+        src : "https://i.pinimg.com/1200x/f3/8b/cf/f38bcf09d5fa5b7663d63b5e5ef32978.jpg",
         description : "A dark mode enabled portfolio template",
         href : "#",
     },
     {
         title : 'Sundown',
-        src : "https://i.pinimg.com/1200x/3b/e8/d5/3be8d5277a5dfd74e183fdd9a17ee659.jpg",
+        src : "https://i.pinimg.com/1200x/4f/4f/64/4f4f6439cd9ab69f5aacbd3796b538f9.jpg",
         description : "A dark mode enabled portfolio template",
         href : "#",
     },
@@ -52,7 +52,7 @@ const Project = () => {
         {projects.map((project, idx) => (
          <div key={project.title} className="mt-4">
             <Image src={project.src} alt={project.title} width={500} height={500}
-                className="aspect-square rounded-xl"
+                className="aspect-square rounded-xl object-cover"
             />
          
          </div>
